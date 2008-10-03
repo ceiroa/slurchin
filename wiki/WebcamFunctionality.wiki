@@ -1,4 +1,4 @@
-#summary Webcan Functionality
+#summary Functionality of the video recording device connected to the Slug
 
 = Introduction =
 
