@@ -1,0 +1,11 @@
+#summary Why did we choose a Slug?
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+A lot cheaper than using a full laptop or desktop
+
+Open-source scripting languages such as Python are supported
