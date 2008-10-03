@@ -1,0 +1,16 @@
+#summary Webcan Functionality
+
+= Introduction =
+
+The webcam is the central part of the home security system, and will be in charge of collecting visual information.
+
+
+= Details =
+
+The camera starts recording when it detects movement
+
+It saves the video for an X period of time, before overwriting it
+
+The recordings can be accessed through the Internet
+
+Exposes the monitoring functionality in a RESTful style 
