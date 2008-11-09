@@ -1,4 +1,4 @@
-#summary Important commands for dealing with the Slug.
+#summary Important commands for dealing with the Slug
 
 = Commands =
 
