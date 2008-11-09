@@ -1,4 +1,4 @@
-Frequent Asked Questions
+#summary Frequent Asked Questions
 
 = SLURCHIN FAQ =
 
