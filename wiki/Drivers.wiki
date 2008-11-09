@@ -14,3 +14,5 @@ For a Logitech 961400-0403 Quickcam for Notebooks Deluxe we need the following d
 You must load the modules in the right order, which is the reverse order of this list (starting with v4l2_common). 
 
 We can find the dependencies for each driver at ...
+
+Link of interest: http://www.linuxjournal.com/video/get-your-webcam-working-gspca
