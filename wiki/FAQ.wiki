@@ -1,0 +1,34 @@
+#summary One-sentence summary of this page.
+
+= SLURCHIN FAQ =
+
+1. Which drivers do I need to install?
+If you have a Quickcam for Notebook Deluxe, install the following drivers, IN THIS ORDER:
+	- 
+	-	
+	-
+
+If you have other type of usb camera, do the following:
+
+	1. Connect the camera
+
+	2. Download usbutils
+		ipkg install usbutils
+
+	3. Run lsusb
+		lsub
+	This will show the devices connected to the ports, for example:
+		....
+		....
+	
+	4. The numbers represent manufacturer and model, in this order. Look for the drivers you need at http://www..... 
+
+	You need ALL the mentioned drivers. For example, for quickcam ... these are:
+	...
+
+
+2. Do I need to add a Swap s[ace?
+	No, but your Slug will run faster.
+
+3. Do I need to install Cherokee?
+	No, but it's the web server we like the most in this environment so far.
