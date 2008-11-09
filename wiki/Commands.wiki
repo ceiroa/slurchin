@@ -1,0 +1,6 @@
+#summary Important commands for dealing with the Slug.
+
+= Commands =
+
+lsmod --> lists loaded drivers
+ps --> lists running processes
