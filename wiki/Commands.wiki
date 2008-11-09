@@ -2,5 +2,5 @@
 
 = Commands =
 
-lsmod --> lists loaded drivers
-ps --> lists running processes
+ * lsmod --> lists loaded drivers
+ * ps --> lists running processes
