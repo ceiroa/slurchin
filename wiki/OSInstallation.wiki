@@ -1,6 +1,6 @@
 #summary How to install an OS in the Slug
 
-= OS INSTALLATION =
+== OS Installation ==
 
 The OS system we chose for development is SlugOS. The application might run in other OSs, but we haven't tested it.
 
