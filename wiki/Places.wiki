@@ -1,0 +1,20 @@
+#summary Important places in our Slug
+
+= Introduction =
+
+== DEVICES ==
+/dev/video0
+
+== APPLICATIONS ==
+/opt/gphoto				
+/opt/gphoto/bin/gphoto2
+/usr/bin/webcam_server		
+/usr/sbin/w3camd
+
+/etc/cherokee/
+/usr/bin/
+/var/www/  
+
+== DRIVERS ==
+/lib/modules/2.6.21.7/kernel/drivers/media/video/
+/lib/modules/2.6.21.7/kernel/drivers/usb/media/
