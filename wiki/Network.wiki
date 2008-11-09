@@ -3,20 +3,14 @@
 Reasons to set up a network:
  
  # Being able to refer to the Slug by name instead of IP address + if the IP changes (because of DHCP) you don't have to guess the new IP
-
  # Being able to access the Slug remotely via SSH
-
  # Being able to expose some functionality from the Slug to the outside world 
 
 === To set up the network: ===
 
 Go to the site DynDNS, and open a free account. To do that you should click in the menu.... There are other companies that offer similar services, but this is the best? one.
 
-
-
 All this has been done for a Linksys ....., but most home routers should have similar functionality.
-
-
 
 You will do all this in you router's admin panel. Point your browser to 192.168.1.1, and log in. (If you've never logged in, or you've never changed the default settings, these are username: 'admin' password: 'admin.')
 
