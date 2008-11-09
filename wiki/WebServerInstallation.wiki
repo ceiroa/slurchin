@@ -1,0 +1,13 @@
+#summary How to install a server in the Slug
+
+A web server is not bundled with the application due to the memory constrains of the hardware. In theory, you should be able to run it with any web server, and having more than one installed in the Slug is a waste of resources.
+
+We like the Cherokee server the most. It has great documentation, that you can find here: ......
+
+Brief instructions for installing and configuring the server:
+
+ # Run 'ipkg install cherokee'
+		
+This will download and install the server. It will be downloaded at ...
+
+The config files are at... BUT you can configure through the web browser. To do that run '......'
