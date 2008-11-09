@@ -14,10 +14,6 @@ All this has been done for a Linksys ....., but most home routers should have si
 
 You will do all this in you router's admin panel. Point your browser to 192.168.1.1, and log in. (If you've never logged in, or you've never changed the default settings, these are username: 'admin' password: 'admin.')
 
- # 
- # 
- # 
-
 To improve the security of your network, once you've opened it to the external world, you should do the following:
 
  # Scan the ports of all the devices connected to the network (including laptops, desktops, the router, and the Slug)
@@ -27,7 +23,6 @@ There should not be anything open that you have not opened yourself
 If you find the port ... open, close it (if it's in the router, you can do that from the admin panel, probably at 192.168.1.1). It's for Plug-and-play devices, and you don't need it, unless you do gaming? 
 
  # Change 
- # 
 
 Optional:
 
