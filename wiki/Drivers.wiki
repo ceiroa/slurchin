@@ -1,0 +1,16 @@
+#summary Drivers we need for the webcam
+
+This information is in other pages, but it's so important for the project that we give it its own section.
+
+= Drivers =
+
+For a Logitech 961400-0403 Quickcam for Notebooks Deluxe we need the following drivers:
+
+    * gspca                 600708  0
+    * videodev               23072  1 gspca
+    * v4l1_compat            11652  1 videodev
+    * v4l2_common            12640  1 videodev
+
+You must load the modules in the right order, which is the reverse order of this list (starting with v4l2_common). 
+
+We can find the dependencies for each driver at ...
