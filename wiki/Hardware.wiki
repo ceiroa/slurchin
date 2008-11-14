@@ -1,7 +1,5 @@
 #summary Necessary hardware to replicate the system
 
-= Introduction =
-
 To use our home security system we will need the following hardware:
 
  * 1 slug
