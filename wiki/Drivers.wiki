@@ -22,8 +22,8 @@ You can find the drivers you have, loaded or not, at the following locations:
  * `/lib/modules/2.6.21.7/kernel/drivers/media/video/`
  * `/lib/modules/2.6.21.7/kernel/drivers/usb/media/`
 
-You must load the modules in the right order, which is the reverse order of this list (starting with v4l2_common). 
+You must load the modules in the right order, which is the reverse order of this list (starting with `v4l2_common`). 
 
-We can also find the dependencies for each driver at '/lib/modules/2.6.21.7/modules.dep'.
+We can also find the dependencies for each driver at `/lib/modules/2.6.21.7/modules.dep`.
 
-Link of interest: http://www.linuxjournal.com/video/get-your-webcam-working-gspca
+Link of interest: [http://www.linuxjournal.com/video/get-your-webcam-working-gspca]
