@@ -13,8 +13,8 @@
 
 
 `/usr/bin/webcam_server` - Another application that we do NOT use. But you might consider playing around with it. If you do, please let us know how it went.
-	
-	
+
+
 `/usr/sbin/w3camd` - This is the application that we do use as part of the project. It has to be installed before we can do anything with our program. But the program will take care of checking if its' already there.
 
 
