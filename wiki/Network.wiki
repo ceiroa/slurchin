@@ -8,21 +8,29 @@ Reasons to set up a network:
 
 === To set up the network: ===
 
-Go to the site DynDNS, and open a free account. To do that you should click in the menu.... There are other companies that offer similar services, but this is the best? one.
+All this has been done for the  typical Linksys home wireless router, but most home routers should have similar functionality.
 
-All this has been done for a Linksys ....., but most home routers should have similar functionality.
+Go to the site DynDNS, and open a free account. There are other companies that offer similar services, but this is one of the best.
 
-You will do all this in you router's admin panel. Point your browser to 192.168.1.1, and log in. (If you've never logged in, or you've never changed the default settings, these are username: 'admin' password: 'admin.')
+Install [http://www.dyndns.com/support/kb/using_ddclient_with_dyndns_services.html ddclient]. 
+
+
+To configure the router, point your browser to 192.168.1.1, and log in. If you've never logged in, or you've never changed the default settings, these are as follows:
+
+{{{
+username: 'admin' 
+password: 'admin'
+}}}
 
 To improve the security of your network, once you've opened it to the external world, you should do the following:
 
- # Scan the ports of all the devices connected to the network (including laptops, desktops, the router, and the Slug)
+ # Scan the ports of all the devices connected to the network (including laptops, desktops, the router, and the Slug).
 		
-There should not be anything open that you have not opened yourself
+There should not be anything open that you have not opened yourself.
 
-If you find the port ... open, close it (if it's in the router, you can do that from the admin panel, probably at 192.168.1.1). It's for Plug-and-play devices, and you don't need it, unless you do gaming? 
+If you find the a port for Pnp open, close it (if it's in the router, you can do that from the admin panel). It's for Plug-and-play devices, and you don't need it unless you do gaming.
 
- # Change 
+ # Change the default web port (80) to some unknown port (not 8080 or other similar common alternative)
 
 Optional:
 
