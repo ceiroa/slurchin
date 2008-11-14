@@ -12,7 +12,7 @@ All this has been done for the  typical Linksys home wireless router, but most h
 
 Go to the site DynDNS, and open a free account. There are other companies that offer similar services, but this is one of the best.
 
-Install [http://www.dyndns.com/support/kb/using_ddclient_with_dyndns_services.html ddclient]. 
+Install and configure [http://www.dyndns.com/support/kb/using_ddclient_with_dyndns_services.html ddclient]. 
 
 
 To configure the router, point your browser to 192.168.1.1, and log in. If you've never logged in, or you've never changed the default settings, these are as follows:
