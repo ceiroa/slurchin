@@ -4,7 +4,7 @@
 
 *1. Which drivers do I need to install?*
 
-See [Drivers].
+If you have a Logitech 961400-0403 Quickcam for Notebooks Deluxe, see [Drivers].
 
 If you have other type of usb camera, do the following:
 
