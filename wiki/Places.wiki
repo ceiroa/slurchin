@@ -28,6 +28,6 @@
 
 
 == DRIVERS ==
-`/lib/modules/2.6.21.7/kernel/drivers/media/video/` - This is where you will find the video [drivers], if installed.
+`/lib/modules/2.6.21.7/kernel/drivers/media/video/` - This is where you will find the video [Drivers], if installed.
 
 `/lib/modules/2.6.21.7/kernel/drivers/usb/media/` - This is where you will find the `gspca` driver.
