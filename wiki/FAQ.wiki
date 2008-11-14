@@ -2,7 +2,7 @@
 
 = SLURCHIN FAQ =
 
- *1. Which drivers do I need to install?*
+*1. Which drivers do I need to install?*
 
   See [Drivers].
 
@@ -32,14 +32,14 @@
 
 
 
- *2. Do I need to add a Swap space?*
+*2. Do I need to add a Swap space?*
 
   No, but your Slug will run faster with it.
 
- *3.  How do I install a swap memory space?*
+*3.  How do I install a swap memory space?*
 
   Follow the instructions at http://www.nslu2-linux.org/wiki/HowTo/AddAdditionalSwapSpace.
 
- *4. Do I need to install Cherokee?*
+*4. Do I need to install Cherokee?*
 
   No, but it's the web server we like the most in this environment, so far.
