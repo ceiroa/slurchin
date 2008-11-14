@@ -15,16 +15,17 @@ Go to the site DynDNS, and open a free account. There are other companies that o
 Install and configure [http://www.dyndns.com/support/kb/using_ddclient_with_dyndns_services.html ddclient]. 
 
 
-To configure the router, point your browser to 192.168.1.1, and log in. If you've never logged in, or you've never changed the default settings, these are as follows:
+To configure the router point your browser to 192.168.1.1, and log in. If you've never logged in, or you've never changed the default settings, these are as follows:
 
 {{{
 username: 'admin' 
 password: 'admin'
 }}}
 
-Once in the router's admin panel, go to `Setup|DDNS`, and enter the information for you account with you Dinamic DNS provider.
+Once in the router's admin panel, go to `Setup|DDNS`, and enter the information of the account you just opened with your Dinamic DNS provider.
 
-Then go to your DDNS providers site, where you register the account, and check the IP address listed for your device. If it's an internal IP address (for example 192.168.1.101), you'll have to change it to the external IP address that you can see in your router's admin panel (in mine it shows it in the same DDNS tab).
+Then go back to your DDNS providers site, and check the IP address listed for your device. If it's an internal IP address (for example 192.168.1.101), you'll have to change it to the external IP address that you can see in your router's admin panel (in mine it shows it in the same DDNS tab).
+
 ===Security===
 
 To improve the security of your network, once you've opened it to the external world, you should scan the ports of all the devices connected to the network (including laptops, desktops, the router, and the Slug).
