@@ -1,19 +1,21 @@
 #summary Important places in our Slug
 
 == DEVICES ==
-/dev/video0
+`/dev/video0`  - This entry should appear once all the necessary [Drivers] are loaded
 
 == APPLICATIONS ==
-/opt/gphoto	
+
+=== For taking pictures ===
+`/opt/gphoto`	- This entry and the next one are for an application that would allow us to take pictures through a camera (not webcam) connected to the Slug. We do NOT use it in this project.
 			
-/opt/gphoto/bin/gphoto2
+`/opt/gphoto/bin/gphoto2`
 
-/usr/bin/webcam_server	
+`/usr/bin/webcam_server` - Another application that we do NOT use. But you might consider playing around with it. If you do, please let us know how it went.	
 	
-/usr/sbin/w3camd
+`/usr/sbin/w3camd` - This is the application that we do use as part of the project. It has to be installed before we can do anything with our program. But the program will take care of checking if its' already there.
 
 
-
+===For exposing functionality to the outside ===
 /etc/cherokee/
 
 /usr/bin/
