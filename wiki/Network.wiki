@@ -22,16 +22,17 @@ username: 'admin'
 password: 'admin'
 }}}
 
-To improve the security of your network, once you've opened it to the external world, you should do the following:
+Once in the router's admin panel, go to `Setup|DDNS`, and enter the information for you account with you Dinamic DNS provider.
 
- # Scan the ports of all the devices connected to the network (including laptops, desktops, the router, and the Slug).
+Then go to your DDNS providers site, where you register the account, and check the IP address listed for your device. If it's an internal IP address (for example 192.168.1.101), you'll have to change it to the external IP address that you can see in your router's admin panel (in mine it shows it in the same DDNS tab).
+===Security===
+
+To improve the security of your network, once you've opened it to the external world, you should scan the ports of all the devices connected to the network (including laptops, desktops, the router, and the Slug).
 		
 There should not be anything open that you have not opened yourself.
 
-If you find the a port for Pnp open, close it (if it's in the router, you can do that from the admin panel). It's for Plug-and-play devices, and you don't need it unless you do gaming.
+If you find the a port for PnP open, close it (if it's in the router, you can do that from the admin panel). It's for Plug-and-play devices, and you most probably don't need.
 
- # Change the default web port (80) to some unknown port (not 8080 or other similar common alternative)
+It's also recommended that you change the default web port (80) to some unknown port (not 8080 or other similar common alternative). You can do this in the web server's config file. For Cherokee server this is `/etc/cherokee/cherokee.conf`. 
 
-Optional:
-
- * Lists the mac addresses of the devices you are going to allow to access your network 
+Optionally, you can use the "Wireless Mac Filter" functionality of your router, and lists the mac addresses of the devices you are going to allow access your network. 
