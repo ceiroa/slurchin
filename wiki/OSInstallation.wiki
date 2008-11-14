@@ -1,16 +1,10 @@
-#summary How to install an OS in the Slug
+#summary Install an OS in the Slug
 
 == OS Installation ==
 
 The OS system we chose for development is SlugOS. The application might run in other OSs, but we haven't tested it.
 
-To install SlugOS in the NSLU2 follow these steps:
+To install SlugOS in the NSLU2 follow the instructions at http://www.nslu2-linux.org/wiki/SlugOS/UsingTheBinary.
 
-	1. Install the OS that Linksys provides, following the instructions the NSLU2 comes with
-	2. 
-	3.
 
-Other stuff you might consider doing:
-
-- Set up a swap memory
-	Why? Because ...
+Due to the memory constraints of the Slug, you might also consider adding additional swap space http://www.nslu2-linux.org/wiki/HowTo/AddAdditionalSwapSpace
