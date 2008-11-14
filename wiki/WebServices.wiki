@@ -1,0 +1,23 @@
+#summary Slurchin Web Services API.
+
+
+== Implemented ==
+The application will allow to retrieve information targeting the following URL:
+
+
+The format of the request is:
+
+
+The format of the response:
+
+
+== Desired ==
+
+We would like to define an API that would allow a Slug to automatically send an alert through HTTP when an alarm is triggered.
+
+The alert message could include:
+
+ * Address
+ * Time
+ * An image (maybe also a key to access that image)
+ * Contact number
