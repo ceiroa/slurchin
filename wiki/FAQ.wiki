@@ -8,33 +8,33 @@ See [Drivers].
 
 If you have other type of usb camera, do the following:
 
- # Connect the camera
+ a.) Connect the camera
 
- # Download and install usbutils: `ipkg install usbutils`
+ b.) Download and install usbutils: `ipkg install usbutils`
 
- # Run lsusb: `lsub`. This will show the devices connected to the ports, for example:
+ c.) Run lsusb: `lsub`. This will show the devices connected to the ports, for example:
 		
 {{{
-Bus 3 Device 1: ID 0000:0000  
-Bus 2 Device 3: ID 046d:08a9 Logitech, Inc. 
-Bus 2 Device 1: ID 0000:0000  
-Bus 1 Device 1: ID 0000:0000  
-Bus 1 Device 2: ID 03f0:3207 Hewlett-Packard 
+    Bus 3 Device 1: ID 0000:0000  
+    Bus 2 Device 3: ID 046d:08a9 Logitech, Inc. 
+    Bus 2 Device 1: ID 0000:0000  
+    Bus 1 Device 1: ID 0000:0000  
+    Bus 1 Device 2: ID 03f0:3207 Hewlett-Packard 
 }}}
 	
- # The numbers represent manufacturer and model, in this order. Look for the drivers you need by vendor and product ID at http://mxhaard.free.fr/spca5xx.html
+ d.) The numbers represent manufacturer and model, in this order. Look for the drivers you need by vendor and product ID at http://mxhaard.free.fr/spca5xx.html
 
 You need ALL the mentioned drivers. For example, for quickcam ... these are the ones listed in the [Drivers] section.
 
 
- # Do I need to add a Swap space?
+2. Do I need to add a Swap space?
 
 No, but your Slug will run faster.
 
-# How do I install a swap memory space?
+3.  How do I install a swap memory space?
 
 Follow the instructions at http://www.nslu2-linux.org/wiki/HowTo/AddAdditionalSwapSpace.
 
- # Do I need to install Cherokee?
+4. Do I need to install Cherokee?
 
 No, but it's the web server we like the most in this environment, so far.
