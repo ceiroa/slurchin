@@ -1,5 +1,8 @@
 #summary Slurchin Web Services API.
 
+We want the user to be able to see images of his home remotely, using the Internet. But we have to provide a security layer, so that nobody else can access these images.
+
+An option would be to include `username` and `password` in the application's configuration file, and save the images outside of the root directory.
 
 == Implemented ==
 The application will allow to retrieve information targeting the following URL:
