@@ -1,7 +1,5 @@
 #summary Why did we choose a Slug?
 
  # Mainly, because it is a lot cheaper (about $50) than using a full laptop or desktop (and webcams are also cheap). And any security system out there is going to cost you from $300 to $2000. 
-
  # Since the OS we run in the Slug is a flavor or GNU/Linux, it supports out of the box open-source scripting languages such as Python or Perl.
-
  # It allows us to run a web server in the device that we can use to expose functionality and communicate with other applications.
