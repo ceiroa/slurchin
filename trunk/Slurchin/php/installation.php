@@ -5,7 +5,11 @@
 	
 	//Get lsusb (and others), if we didn't have it
 	if(!$lsusbIn){
-		system('ipkg install usbutils');
+		$last_line = system('ipkg install usbutils', &$retval);
+		echo '
+		</pre>
+		<p>Last line of the output: ' . $last_line . '</p>
+		<p>Return value: ' . $retval . '</p>';
 	} else {
 		echo "<p>The 'lsusb' command is already working.</p>";
 	}
@@ -13,8 +17,12 @@
 	//Run lsusb, and get output
 	//Do we save the output to a file and then read it, 
 	//or do we read it directly from the shell?
-	$lsusbOutput = system('lsusb > usb ....');
-	if($lsusbOutput==''){
+	$last_line = system('lsusb', &$retval);
+	echo '
+		</pre>
+		<p>Last line of the output: ' . $last_line . '</p>
+		<p>Return value: ' . $retval . '</p>';
+	if($retval==''){
 		$knownCamera = true;		
 	}
 	
@@ -26,9 +34,9 @@
 		//Download and install them, if needed
 		if(!$driversIn){
 			downloadDrivers();
-			system('insmod '); //Load driver 1
-			system('insmod '); //Load driver 2
-			system('insmod '); //Load driver 3
+			system('insmod ', &$retvalDriver1); //Load driver 1
+			system('insmod ', &$retvalDriver2); //Load driver 2
+			system('insmod ', &$retvalDriver3); //Load driver 3
 		} else {
 			echo "<p>Drivers already installed. Cool.</p>";
 		}
