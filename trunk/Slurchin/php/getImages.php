@@ -17,12 +17,13 @@ include_once('camera.php');
 
 $takePic = $_GET['takepic'];
 
-$camera;
+echo ("<p>Takepic get var:" . $takePic . "</p>");
+
+echo("<p>Creating new camera</p>");
+$camera = new camera();
 
 if($takePic == 1){
-	if($camera == null){
-		$camera = new camera();
-	}		
-	$camera.takePicture('640x480', '/var/www/Slurchin/pictures/pic.jpg');
+	echo("<p>Taking picture</p>");
+	$camera->takePicture('640x480', '/var/www/Slurchin/pictures/pic.jpg');
 }
 
