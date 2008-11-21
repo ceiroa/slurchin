@@ -1,7 +1,7 @@
 <?php
 session_start();
 if($_SESSION['id'] == 1){
-	echo system('lsusb', $retval);
+	echo system('lsmod', $retval);
 }else{
 	echo "Unauthorized";
 }
