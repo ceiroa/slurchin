@@ -18,7 +18,7 @@ class camera {
 		//Should they already be hardcoded or should we let the user define them?
 		
 		//Save picture in the pictures folder
-		system ('vidcat -d /dev/video0 -s ' . $resolution . ' >' . $picturesFolderPath);		
+		system ('vidcat -d /dev/video0 -s ' . $resolution . ' > ' . $picturesFolderPath);		
 	}
 	
 	function takePictureAtSetInterval($interval){
