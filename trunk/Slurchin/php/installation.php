@@ -1,29 +1,29 @@
 <?php
     
 	//Look for lsusb
-	$lsusbIn = checkUsbUtils();
-	
-	//Get lsusb (and others), if we didn't have it
-	if(!$lsusbIn){
-		$last_line = system('ipkg install usbutils', &$retval);
-		echo '
-		</pre>
-		<p>Last line of the output: ' . $last_line . '</p>
-		<p>Return value: ' . $retval . '</p>';
-	} else {
-		echo "<p>The 'lsusb' command is already working.</p>";
-	}
+	//$lsusbIn = checkUsbUtils();
 	
 	//Run lsusb, and get output
 	//Do we save the output to a file and then read it, 
 	//or do we read it directly from the shell?
-	$last_line = system('lsusb', &$retval);
+	$last_line = system('lsusb', $retval);
 	echo '
 		</pre>
 		<p>Last line of the output: ' . $last_line . '</p>
 		<p>Return value: ' . $retval . '</p>';
 	if($retval==''){
 		$knownCamera = true;		
+	}
+	
+	//Get lsusb (and others), if we didn't have it
+	if(!$lsusbIn){
+		$last_line = system('ipkg install usbutils', $retval);
+		echo '
+		</pre>
+		<p>Last line of the output: ' . $last_line . '</p>
+		<p>Return value: ' . $retval . '</p>';
+	} else {
+		echo "<p>The 'lsusb' command is already working.</p>";
 	}
 	
 	//If the camera is the Logitech Quickcam for Notebooks Deluxe
@@ -65,10 +65,6 @@
 	} else {
 		echo "Sorry, unnknown camera";
 	}
-	
-	
-	
-	
 	
 	function checkForDrivers() {
 		
