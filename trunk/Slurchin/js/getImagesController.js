@@ -1,33 +1,15 @@
 /**
  * @author carlos
  */
-	var driversOk = 0;
-
  	$(document).ready(main);
  
  	function main(){
- 	//Add event listeners
+ 		//Add event listeners
 		$("#takePic").click(function(){
-			$("#install").html('');
-			$("#wait").text(' Wait for it... ');
-			var now = getNow();
-			
-			$.get('./php/getImages.php?takepic=1&time=' + now, function(data){
-				//alert(data);
-				$('#pictureStatus').text(data);
-				
-				//If we had storage, we would save different pictures with different names.
-				//We would also have to modify 'php/getImages.php' accordingly.
-				//$('#pic').attr('src', './pictures/' + currentTime + '.jpg');
-				
-				//If we don't, we just call it pic
-				$('#pic').attr('src', './pictures/pic.jpg');
-				$("#wait").text('');
-			});
+			takePicture();
 		});
 		
 		$("#install").click(function(){
-			
 			//Check if drivers are loaded
 			checkDrivers();
 			checkUsb();	
@@ -93,5 +75,23 @@
 				
 				$('#driversLoaded').html(driversErrorMessage);
 			}
+		});
+	}
+	
+	function takePicture(){
+		$("#install").html('');
+		$("#wait").text(' Wait for it... ');
+		var now = getNow();
+		
+		$.get('./php/getImages.php?takepic=1&time=' + now, function(data){
+			$('#pictureStatus').text(data);
+			
+			//If we had storage, we would save different pictures with different names.
+			//We would also have to modify 'php/getImages.php' accordingly.
+			//$('#pic').attr('src', './pictures/' + currentTime + '.jpg');
+			
+			//If we don't, we just call it pic
+			$('#pic').attr('src', './pictures/pic.jpg');
+			$("#wait").text('');
 		});
 	}
