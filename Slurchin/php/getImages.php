@@ -5,8 +5,6 @@ ini_set('display_errors', '1');
 
 session_start();
 
-include_once('camera.php');
-
 if($_SESSION['id'] == 1){
 	$takePic = $_GET['takepic'];
 	//$currentTime = $_GET['time'];

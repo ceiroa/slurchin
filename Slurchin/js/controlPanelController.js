@@ -13,7 +13,6 @@
 			//Check if drivers are loaded
 			checkDrivers();
 			checkUsb();	
-			checkW3cam();
 		});
 	}
 	
@@ -65,7 +64,7 @@
 			
 			//If we have the drivers loaded, tell the user.
 			if (driver1 != -1 && driver2 != -1 && driver3 !=-1 && driver4!=-1) {
-				$('#driversLoaded').text("Drivers are loaded.<br/><hr/>");
+				$('#driversLoaded').html("<p>Drivers are loaded.</p><hr/>");
 				
 			} else {
 				var driversErrorMessage = '<p>Not all the necessary drivers to run the application are loaded.' +
