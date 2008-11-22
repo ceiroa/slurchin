@@ -22,14 +22,16 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
       	<title>Slurchin Command Center</title>
+		<link type="text/css" rel="stylesheet" href="css/stylesMain.css"/>
+		<script src="js/jquery.js" type="text/javascript"></script>
+	    <script src="js/indexController.js" type="text/javascript"></script>
 	</head>
    <body>
-   		<?php
-			
-			
+   		<h1>Slurchin</h1>
+   		<?php		
 			if(empty($_POST)){
 				echo '
-					<div id="content">
+					<div id="main">
 						<form method="POST" action="index.php">
 							Please Enter Password: <input type="password" name="password" />
 							<input type="submit" value="Log In" />
