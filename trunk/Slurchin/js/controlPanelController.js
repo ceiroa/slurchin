@@ -78,8 +78,14 @@
 	}
 	
 	function takePicture(){
-		$("#checksystem").html('');
+		$("#driversStatus").text('');
+		$("#driversLoaded").text('');
+		$("#lsusbWorking").text('');
+		$("#usbStatus").text('');
+		
 		$("#wait").text(' Wait for it... ');
+		
+		//We don't need this variable unless we use it to name the picture. See comments below.
 		var now = getNow();
 		
 		$.get('./php/getImages.php?takepic=1&time=' + now, function(data){
