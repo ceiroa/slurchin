@@ -5,7 +5,7 @@
  
  	function main(){
  		//Add event listeners
-		$("#takePic").click(function(){
+		$("#takePicture").click(function(){
 			takePicture();
 		});
 		
@@ -30,7 +30,7 @@
 	
 	function checkUsb(){
 		//Check if 'lsusb' utility is there
-		$.get('./php/lsusb.php', function(data){			
+		$.get('./php/system/lsusb.php', function(data){			
 			$('#usbStatus').text(data);
 			var usbStatus = $('#usbStatus').text();
 			
@@ -53,7 +53,7 @@
 
 	function checkDrivers(){
 		
-		$.get('./php/lsmod.php', function(data){
+		$.get('./php/system/lsmod.php', function(data){
 				
 			$('#driversStatus').text(data);
 			var driversStatus = $('#driversStatus').text();
@@ -78,7 +78,7 @@
 	}
 	
 	function takePicture(){
-		$("#install").html('');
+		$("#checksystem").html('');
 		$("#wait").text(' Wait for it... ');
 		var now = getNow();
 		
@@ -91,6 +91,10 @@
 			
 			//If we don't, we just call it pic
 			$('#pic').attr('src', './pictures/pic.jpg');
+			
+			//We would have to configure the web server to let us access files out of the web root directory. 
+			//$('#pic').attr('src', '../../SlurchinOutOfRoot/pictures/pic.jpg');
+			
 			$("#wait").text('');
 		});
 	}

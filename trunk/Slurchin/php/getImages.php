@@ -16,6 +16,8 @@ if($_SESSION['id'] == 1){
 		
 		//If we don't, we overwrite it
 		system ('vidcat -d /dev/video0 -s  640x480 > /var/www/Slurchin/pictures/pic.jpg');	
+		//system ('vidcat -d /dev/video0 -s  640x480 > /var/SlurchinOutOfRoot/pictures/pic.jpg');
+		//chmod ('/var/SlurchinOutOfRoot/pictures/pic.jpg', 0777);
 	}
 	
 }else{
