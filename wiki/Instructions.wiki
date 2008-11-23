@@ -1,0 +1,7 @@
+#summary Installation and usage.
+
+ # To install the application you need to drop the project called 'Slurchin' in 'var/www/' in your Slug (NSLU2). This must be the web directory of a server you have installed in that device. If the path is different you will need to change it in 'Sluchin/php/getImages.php' and 'Sluchin/php/system/deleteImages.php'.
+
+ # You also need to drop the project called 'SlurchinOutOfRoot'at '/var/', and change the password from 'XXXXXX' to whatever you like. The application will prompt you for this password when you log in. Again, if your directory structure is different, you'll need to change Sluchin/php/logIn.php' accordingly.
+
+And that's about it. Enjoy.
