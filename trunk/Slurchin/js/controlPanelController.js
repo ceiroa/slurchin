@@ -82,21 +82,20 @@
 		$("#driversLoaded").text('');
 		$("#lsusbWorking").text('');
 		$("#usbStatus").text('');
-		
+		$("#hasCamera").text('');
+
 		$("#wait").text(' Wait for it... ');
+		   
+      	//Delete all other images in 'images' folder
+		$.get('./php/system/deleteImages.php?delete=1');
 		
-		//We don't need this variable unless we use it to name the picture. See comments below.
+		//We use this variable to name the picture
 		var now = getNow();
 		
 		$.get('./php/getImages.php?takepic=1&time=' + now, function(data){
 			$('#pictureStatus').text(data);
 			
-			//If we had storage, we would save different pictures with different names.
-			//We would also have to modify 'php/getImages.php' accordingly.
-			//$('#pic').attr('src', './pictures/' + currentTime + '.jpg');
-			
-			//If we don't, we just call it pic
-			$('#pic').attr('src', './pictures/pic.jpg');
+			$('#pic').attr('src', './pictures/' + now + '.jpg');
 			
 			//We would have to configure the web server to let us access files out of the web root directory. 
 			//$('#pic').attr('src', '../../SlurchinOutOfRoot/pictures/pic.jpg');
