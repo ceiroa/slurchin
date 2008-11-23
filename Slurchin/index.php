@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-      	<title>Slurchin Command Center</title>
+      	<title>Slurchin Login</title>
 		<link type="text/css" rel="stylesheet" href="css/stylesMain.css"/>
 		<script src="js/jquery.js" type="text/javascript"></script>
 	    <script src="js/indexController.js" type="text/javascript"></script>
@@ -13,7 +13,7 @@
 		<div id="main">
 				Please Enter Password: <input type="password" id="password" />
 				<button id="login">Log In</button>
-				<span id="error"></span>
+				<span id="error" class="error"></span>
 			</form>
 		</div>   			
    </body>

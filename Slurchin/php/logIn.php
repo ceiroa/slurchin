@@ -1,4 +1,9 @@
 <?php
+
+	/**
+	 * Restricts access to the application
+	 * */
+	
 	ini_set('display_errors', '1');
 		
 	include_once('../../../SlurchinOutOfRoot/passwordManager.php');

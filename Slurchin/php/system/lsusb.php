@@ -1,7 +1,12 @@
 <?php
-session_start();
-if($_SESSION['id'] == 1){
-	echo system('lsusb', $retval);
-}else{
-	echo "Unauthorized";
-}
+
+/**
+ * Runs 'lsusb' command
+ * */
+
+	session_start();
+	if($_SESSION['id'] == 1){
+		echo system('lsusb', $retval);
+	}else{
+		echo "Unauthorized";
+	}

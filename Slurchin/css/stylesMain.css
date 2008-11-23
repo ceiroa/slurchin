@@ -21,9 +21,20 @@ h1{
 	margin-left:60px;
 	padding-top: 20px;
 	width: 80%;
+	min-width: 700px;
 }
 
-.validImg{
-	border:none;
-	margin-left:60px;
+.img{
+	padding: 6px;
+	border-color: black;
+	border-style:solid;
+	border-left-width: 1px;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: blue;
 }
