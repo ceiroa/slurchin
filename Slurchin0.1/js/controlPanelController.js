@@ -96,6 +96,7 @@
 			$('#pictureStatus').text(data);
 			
 			$('#pic').attr('src', './pictures/' + now + '.jpg');
+			$('#pic').attr('class', 'img');
 			
 			//We would have to configure the web server to let us access files out of the web root directory. 
 			//$('#pic').attr('src', '../../SlurchinOutOfRoot/pictures/pic.jpg');
