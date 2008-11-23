@@ -1,7 +1,8 @@
 <?php
 
 /**
- * ALerts the police when the alarm is triggered
+ * Alerts emergency services when the alarm is triggered
+ * We still need to find o develop a protocol to use
  * 
  **/
 
