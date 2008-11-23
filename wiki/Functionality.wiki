@@ -5,7 +5,7 @@
 
 The application can be currently considered a web interface for the w3camd application running in a NSLU2.
 
-The application has been written in php, xhtml, and JavaScript, and currently does the following:
+The application has been written in php, xhtml, and javascript, and currently does the following:
 
  # Checks if the necessary drivers to take pictures with a Quickcam for Notebooks Deluxe connected to a NSLU2 are loaded
  # If they are, it checks if the camera is in fact a Quickcam for Notebooks Deluxe (it might work for other cameras, but this is not implemented yet)
