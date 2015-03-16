@@ -1,0 +1,6 @@
+# Commands #
+
+  * `lsmod` => lists loaded drivers
+  * `insmod` => loads a module (driver)
+  * `ps` => lists running processes
+  * `lsusb` => displays information about USB buses in the system and the devices connected to them (it's not installed by default with SlugOS; you'll need to download and install `usbutils`)

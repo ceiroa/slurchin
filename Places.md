@@ -1,0 +1,31 @@
+## DEVICES ##
+`/dev/video0`  - This entry should appear once all the necessary [Drivers](Drivers.md) are loaded
+
+## APPLICATIONS ##
+
+### For taking pictures ###
+`/opt/gphoto`	- This entry and the next one are for an application that would allow us to take pictures through a camera (not webcam) connected to the Slug. We do NOT use it in this project.
+
+
+`/opt/gphoto/bin/gphoto2`
+
+
+`/usr/bin/webcam_server` - Another application that we do NOT use. But you might consider playing around with it. If you do, please let us know how it went.
+
+
+`/usr/sbin/w3camd` - This is the application that we do use as part of the project. It has to be installed before we can do anything with our program. But the program will take care of checking if its' already there.
+
+
+### For exposing functionality to the outside ###
+
+`/etc/cherokee/` - We use the Cherokee web server in our Slug, but you could use any with a small footprint.
+
+`/usr/bin/` - The files to configure Cherokee server are here.
+
+`/var/www/` - The web pages, including our application, must be placed here.
+
+
+## DRIVERS ##
+`/lib/modules/2.6.21.7/kernel/drivers/media/video/` - This is where you will find the video [Drivers](Drivers.md), if installed.
+
+`/lib/modules/2.6.21.7/kernel/drivers/usb/media/` - This is where you will find the `gspca` driver.

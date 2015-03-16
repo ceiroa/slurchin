@@ -1,0 +1,17 @@
+# Application Functionality #
+
+The application can be currently considered a web interface for the w3camd application running in a NSLU2.
+
+The application has been written in php, xhtml, and javascript, and currently does the following:
+
+  1. Checks if the necessary drivers to take pictures with a Quickcam for Notebooks Deluxe connected to a NSLU2 are loaded
+  1. If they are, it checks if the camera is in fact a Quickcam for Notebooks Deluxe (it might work for other cameras, but this is not implemented yet)
+  1. It allows the user to take pictures and see them on the web
+
+
+## Planned functionality ##
+
+  * Make the application work with other cameras
+  * Add motion detection
+  * Add night vision
+  * Create a RESTful protocol that can be used to alert emergency services
